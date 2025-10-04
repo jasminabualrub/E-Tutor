@@ -1,0 +1,10 @@
+:root{
+--main-color:#FF6636;
+}
+.navbar{
+    z-index: 10;
+}
+.navbar-nav .nav-link.active{
+    text-decoration: 2px overline #FF6636;
+    color:white;
+}
