@@ -1,10 +1,27 @@
 :root{
 --main-color:#FF6636;
 }
+.custom-btn{
+    padding:  15px  32px ;
+    color:white;
+    background-color: #FF6636;
+    border:none;
+}
 .navbar{
     z-index: 10;
 }
 .navbar-nav .nav-link.active{
     text-decoration: 2px overline #FF6636;
     color:white;
+}
+.hero-info {
+gap:40px;
+}
+.hero-info h1{
+    font-weight: 800;
+}
+
+.hero-img img{
+   width: 100%;
+    
 }
