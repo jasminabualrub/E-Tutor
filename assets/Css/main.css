@@ -8,13 +8,14 @@
     
     border:none;
 }
+/*navbar1 start */
 .navbar1{
     z-index: 10;
 }
 .navbar-nav .nav-link.active{
     text-decoration: 2px overline #FF6636;
     color:white;
-}
+}/*navbar1 end*/
 /*nav 2 start */
 .navbar2{
     padding:16px 0px;
@@ -47,13 +48,90 @@ form{
     background-color: #FFFFFF;
 
 }
-.nav-end{
+.nav2-end{
     gap:12px;
 }
-.nav-end .icon{
+.nav2-end .icon{
     gap:24px;
 }
 /*nav2 end*/
+/****************************** start of navbar2 media queriy************************/
+@media   screen  and  (min-width:770px   ) and (max-width:1207px) {
+    .navbar2 .container{
+        flex-direction: column;
+       text-align: start;
+        justify-content: start;
+        
+    }
+    .nav2-content{
+        gap:15px;
+       
+         padding:0px 4px;
+    }
+
+    .nav2-end{
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        
+       
+    }
+    .navbar2 .nav2-end .align-items-center{
+    align-items: start;
+
+  }
+   .navbar2 .icon {
+
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+       
+    }
+    
+}
+@media  screen and (max-width:991px) {
+        .navbar2 .container{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    .navbar2 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: #FF6636;
+        padding:20px 0px;
+    }
+    .navbar2 .container .toggle{
+        width:50px;
+        height: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+        
+    }
+    
+}
+@media screen and (max-width:473px) {
+    .navbar2{
+        text-align: start;
+    }
+    .nav2-start ul{
+        align-items: start;
+    }
+    .nav2-start form {
+        width:fit-content;
+        font-size: 4px;
+    }
+    .nav2-end{
+        flex-direction: column;
+        align-items: start;
+    }
+    .nav2-content{
+        align-items: start;
+    }
+    
+}
+/****************************** end of navbar2 media queriy************************/
 /*hero section start */
 .hero-info {
 gap:40px;
