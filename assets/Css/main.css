@@ -1,5 +1,6 @@
 :root{
 --main-color:#FF6636;
+--main-font:"Inter", sans-serif;
 }
 .custom-btn{
     padding:  15px  32px ;
@@ -8,6 +9,10 @@
     
     border:none;
 }
+body{
+    font-family: var(--main-font);
+}
+
 /*navbar1 start */
 .navbar1{
     z-index: 10;
@@ -98,7 +103,7 @@ form{
         display: flex;
         text-align: center;
         align-items: center;
-        background-color: #FF6636;
+        
         padding:20px 0px;
     }
     .navbar2 .container .toggle{
@@ -144,3 +149,123 @@ gap:40px;
    width: 100%;
     
 }
+/*hero section end */
+/*footer start */
+footer{
+    padding:40px 20px;
+    color:white;
+    background-color: #1D2026;
+}
+footer .footer-start{
+    padding: 40px 8px;
+    align-items: flex-start;
+    gap:20px;
+}
+.footer-btn{
+ gap:16px;
+}
+footer .browse-btn{
+    padding: 15px  32px;
+    color:#A1A5B3;
+    background-color: rgba(161, 165, 179, 0.1);
+    
+}
+ footer .footer-end{
+    gap:30px;
+}
+.footer2{
+    padding: 60px 40px;
+
+}
+
+
+.footer2 .footer2-start{
+gap:32px;
+}
+.footer-icon{
+    gap:12px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 40px;
+   height:40px;
+   color:#A1A5B3;
+    background-color: rgba(161, 165, 179, 0.1);
+    padding: 14px 16px;
+transition: all 0.6s;
+}
+.social-icon:hover{
+    background-color: var(--main-color);
+    color:white;
+    box-shadow: 0 3px 6px #FF6636;
+    cursor: pointer;
+}
+.footer2-end{
+    gap:30px;
+}
+ .footer2-end .item{
+    gap:32px;
+
+}
+.footer2-end .item .item-info{
+    gap:15px;
+    
+}
+.footer2-end .item .item-info a{
+    color:#8C94A3;
+    text-decoration: none;
+    transition: all 0.7s;
+
+}
+.footer2-end .item .item-info a:hover {
+    text-decoration: underline 2px solid #FF6636;
+
+}
+/*footer end  */
+/****************************** footer media queriy start************************/
+@media screen and (max-width:1219px){
+     .footer  .footer-start{
+width: 100%;
+        text-align: center;
+     }
+  .footer  .footer-end {
+       width: 100%;
+
+        
+    }
+    .footer .row{
+        flex-direction: column;
+        justify-content: start;
+        
+    }
+    
+
+}
+@media screen and (min-width:320px) and (max-width:556px){
+.footer-btn {
+    flex-direction: column;
+
+}
+    .footer-icon {
+        align-items: center;
+        justify-content: center;
+    flex-direction: column;
+    
+}
+.footer-icon{
+padding-bottom:60px;
+}
+.footer-end{
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+ .footer2 .footer2-end  {
+   width: 100%;
+    text-align: center;
+    flex-direction: column;
+
+}}
+/****************************** footer media queriy end************************/
