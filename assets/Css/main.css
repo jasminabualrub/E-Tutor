@@ -273,7 +273,7 @@ padding-bottom:60px;
 .courses,.category{
     padding: 80px 0px;
 }
-.category h2{
+.category  .title {
     margin-bottom: 40px;
 }
 .category .row{
