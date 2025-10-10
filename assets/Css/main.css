@@ -273,7 +273,7 @@ padding-bottom:60px;
 .courses,.category{
     padding: 80px 0px;
 }
-.category h1{
+.category h2{
     margin-bottom: 40px;
 }
 .category .row{
@@ -328,3 +328,71 @@ background-color: #FFEEE8;
 background-color: #E1F7E3;
 }
 /*category section end*/
+.courses {
+    background-color: #F5F7FA;
+   
+}
+.courses  .row{
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+.courses h2{
+    margin-bottom: 40px;
+}
+
+.courses .card{
+    padding: 0px;
+    width:240px;
+    height: 450px;
+    border-radius: none;
+    transform: all 0.6s;
+}
+.card-body{
+    gap:14px;
+}
+
+.card-head span:nth-child(1){
+    text-transform: uppercase;
+    padding: 4px 6px;
+    background-color: #FFEEE8;
+    color:#993D20;
+}
+.card-head span:nth-child(2){
+    color:var(--main-color);
+}
+.card-footer-end span:nth-child(2){
+    color:#8C94A3;
+}
+.card .card-head .card2,.card .card-head .card4{
+    text-transform: uppercase;
+    padding: 4px 6px;
+    background-color: #EBEBFF;
+    color:#342F98;}
+
+    .card .card-head .card3 , .card .card-head .card8{
+    text-transform: uppercase;
+    padding: 4px 6px;
+    background-color: #E1F7E3;
+    color:#15711F;}
+
+    .card .card-head .card5{
+        text-transform: uppercase;
+    padding: 4px 6px;
+    background-color: #FFF0F0;
+    color:#882929;
+
+    }
+       .card .card-head .card6,.card .card-head .card10{
+        text-transform: uppercase;
+    padding: 4px 6px;
+    background-color: #FFF2E5;
+    color:#65390C;
+
+    }
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+
+   
