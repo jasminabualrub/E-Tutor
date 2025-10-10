@@ -269,3 +269,62 @@ padding-bottom:60px;
 
 }}
 /****************************** footer media queriy end************************/
+/*category section start*/
+.courses,.category{
+    padding: 80px 0px;
+}
+.category h1{
+    margin-bottom: 40px;
+}
+.category .row{
+    justify-content: center;
+    align-items: center;
+   gap:24px;
+}
+.category-item {
+    width:300px;
+    padding: 20px;
+    gap:20px;
+}
+.category-img{
+    background-color: #FFFFFF;
+    width:60px;
+    height:60px;
+
+}
+.item5 .category-img{
+    background-color:var(--main-color) ;
+}
+.category-item h2{
+    font-size: 16px;
+}
+.category-item span{
+    color:#6E7485;
+    font-size: 14px;
+}
+.item1{
+    background-color: #EBEBFF;
+}
+.item2{
+    background-color: #E1F7E3;
+}
+.item3, .item9, .item12 {
+    background-color: #FFF2E5;
+}
+.item4{
+background-color: #FFF0F0;
+}
+
+.item6, .item8{
+background-color: #F5F7FA;
+}
+.item7{
+background-color: #EBEBFF;
+}
+.item10{
+background-color: #FFEEE8;
+}
+.item11{
+background-color: #E1F7E3;
+}
+/*category section end*/
