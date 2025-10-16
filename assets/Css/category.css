@@ -19,3 +19,58 @@
   transform: scale(1.1);
 }
 /*bestselling-courses section end*/
+/*populer tools section start */
+.populer-tools .container h2{
+    margin-bottom: 24px;
+}
+.carousel-item .row{
+    gap:16px;
+}
+.tool{
+    text-align: center;
+    background-color: white;
+    border:1px solid #E9EAF0;
+    width:170px;
+    padding: 26px;
+    
+}.tool h3 , .tool span{
+transition: all 0.9s;
+}
+.tool:hover h3{
+    color:var(--main-color);
+    font-weight: bold;
+}
+ .tool a{
+    text-decoration: none;
+    color:black;
+}
+.tool span{
+    color:#8C94A3;
+    font-size: 12px;
+}
+.carousel-indicators{
+   
+    bottom:-60px;
+}
+
+ .carousel-indicators [data-bs-target]{
+    background-color: #8C94A3;
+}
+ .carousel-indicators .active {
+ background-color: var(--main-color);
+ }
+.carousel-control-next span, .carousel-control-prev span{
+  
+    color:black;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color:var(--main-color);
+}
+.carousel-control-next{
+right: -30px;
+}
+.carousel-control-prev{
+    left:-30px;
+}
+
+/* populer tools section end */
