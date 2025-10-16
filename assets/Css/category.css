@@ -1,0 +1,21 @@
+/*bestselling-courses section start */
+.bestselling-courses h2{
+    margin-bottom: 60px;
+
+
+}
+.bestselling-courses .row{
+    gap:20px;
+   
+}
+.bestselling-courses .row .card{
+    padding: 0px;
+    width:280px;
+     height: 450px;
+      border-radius: none;
+  transition: all 0.9s;
+}
+.bestselling-courses  .card:hover {
+  transform: scale(1.1);
+}
+/*bestselling-courses section end*/
