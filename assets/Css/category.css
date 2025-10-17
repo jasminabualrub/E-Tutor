@@ -4,11 +4,11 @@
 
 
 }
-.bestselling-courses .row{
+.bestselling-courses .row,.course-filter .row {
     gap:20px;
    
 }
-.bestselling-courses .row .card{
+.bestselling-courses .row .card, .course-filter .row .card{
     padding: 0px;
     width:280px;
      height: 450px;
@@ -74,3 +74,24 @@ right: -30px;
 }
 
 /* populer tools section end */
+/*filter section start*/
+ .course-filter .btn-secondary {
+   border:1px solid #8C94A3;
+   --bs-btn-border-color: #8C94A3;
+   
+ }
+ .course-filter .row>* {
+    width:fit-content;
+    
+
+}
+.course-filter .row .card{
+    font-size: 12px;
+     height: 420px;
+}
+.course-filter  .card:hover {
+  transform: scale(1.1);
+}
+
+
+/*filter section end */
