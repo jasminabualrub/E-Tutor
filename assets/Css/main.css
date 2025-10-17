@@ -12,7 +12,9 @@
 body {
   font-family: var(--main-font);
 }
-
+.custom-color{
+color: var(--main-color);
+}
 /*navbar1 start */
 .navbar1 {
   z-index: 10;
