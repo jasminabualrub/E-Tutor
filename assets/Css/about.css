@@ -8,17 +8,61 @@
     text-decoration: none;
     color:#6E7485;
 }
+/*hero2 section start*/
  .hero2 .hero2-start{
     width:380px ;
 }
+
 .hero2-start h2:nth-child(1){
     color:#E9EAF0;
    text-align: center;
    font-size: 4rem;
 
 }
+/*hero2 section end */
+/*hero2 media start */
+@media screen and (max-width:912px){
+   .hero2 .container .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9px;
+   } 
+}
+/*hero2 media end */
 /*social section start */
 .social-end .item{
     width:200px;
 }
 /*social section end */
+/*social section media query start*/
+@media screen and (max-width:765px){
+    .social .container .row{
+           display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9px;
+    }
+}
+
+/*guide start*/
+.guide{
+    background-color: #FFEEE8;
+}
+
+/*guide end*/
+/*media query for guide section*/
+@media screen and (max-width:991px){
+    .guide .container .row{
+    display: flex;
+    gap:20px;
+    padding: 9px;
+    flex-direction: column;
+
+}
+
+}
