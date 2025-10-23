@@ -92,6 +92,8 @@ right: -30px;
 .course-filter  .card:hover {
   transform: scale(1.1);
 }
-
+ .course-filter .card p{
+    height: 50px;
+ }
 
 /*filter section end */

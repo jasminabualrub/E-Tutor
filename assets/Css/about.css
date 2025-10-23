@@ -1,0 +1,24 @@
+.hero1{
+    background-color: #F5F7FA;
+}
+.hero1 .active {
+    color:black;
+}
+.hero1 a{
+    text-decoration: none;
+    color:#6E7485;
+}
+ .hero2 .hero2-start{
+    width:380px ;
+}
+.hero2-start h2:nth-child(1){
+    color:#E9EAF0;
+   text-align: center;
+   font-size: 4rem;
+
+}
+/*social section start */
+.social-end .item{
+    width:200px;
+}
+/*social section end */

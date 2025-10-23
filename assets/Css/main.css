@@ -259,7 +259,10 @@ color: var(--main-color);
 .card-body {
   gap: 14px;
 }
-
+.courses .card p{
+  height: 90px;
+align-items: center;
+}
 .card-head span:nth-child(1) {
   text-transform: uppercase;
   padding: 4px 6px;
