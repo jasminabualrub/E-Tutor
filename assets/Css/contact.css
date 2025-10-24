@@ -1,3 +1,36 @@
-body{
-    background-color: aquamarine;
+.hero1{
+    background-color: #F5F7FA;
 }
+.hero1 .active {
+    color:black;
+}
+.hero1 a{
+    text-decoration: none;
+    color:#6E7485;
+}
+/*hero2 section start*/
+ .hero2 .hero2-start{
+    width:380px ;
+}
+ .hero2 .container .row{
+    display: flex;
+    
+    justify-content:start;
+    align-items: center;
+
+ }
+ 
+/*hero2 media start */
+@media screen and (max-width:912px){
+   .hero2 .container .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9px;
+   } 
+ 
+  
+}
+/*hero2 section end */
