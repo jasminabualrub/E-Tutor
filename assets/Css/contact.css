@@ -34,3 +34,71 @@
   
 }
 /*hero2 section end */
+/*branches section start */
+.branches .card{
+     display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 24px;
+    background-image: url(../Images/contact/Branches\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:312px;
+    height: 364px;
+}
+.branches .card2{
+     
+    background-image: url(../Images/contact/Branches\ \(2\).webp);
+    
+}
+.branches .card3{
+  
+    background-image: url(../Images/contact/Branches.webp);
+    
+   
+}
+.branches .card4{
+  
+    background-image: url(../Images/contact/Branches\ \(4\).webp);
+    
+   
+}
+.branches  .row{
+    margin-top: 40px;
+   
+}
+.branches .card .info{
+   
+    width:200px;
+  
+    padding:5px;
+    position :absolute;
+    bottom: 24px;
+    
+    z-index: 1;
+}
+.branches .card .info p{
+    color:#6E7485;
+}
+/*branches section enf*/
+/*branches media query start*/
+@media screen and ( min-width:995px) and (max-width:1399px){
+    .branches .row{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:60px;
+    }
+  
+}
+@media screen and ( max-width:990px){
+    .branches .row{
+        
+        justify-content: center;
+        align-items: center;
+        gap:60px;
+    }}
+  
+/*branches media query end */
