@@ -85,6 +85,12 @@ height: 100px;
     width:48px;
     height: 48px;
 }
+.opinion .card{
+    transition: all 0.6s;
+}
+.opinion .card:hover{
+    transform: scale(1.1);
+}
 /*opinion section media query start */
 @media screen and (min-width:1000px) and (max-width:1200px){
 
