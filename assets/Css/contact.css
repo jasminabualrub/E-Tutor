@@ -82,6 +82,9 @@
 .branches .card .info p{
     color:#6E7485;
 }
+.contact-us{
+    background-color: #F5F7FA;
+}
 /*branches section enf*/
 /*branches media query start*/
 @media screen and ( min-width:995px) and (max-width:1399px){
@@ -102,3 +105,10 @@
     }}
   
 /*branches media query end */
+/*contactus start*/
+form p{
+   color:#8C94A3;
+}
+form input , textarea{
+    padding: 10px;
+}
