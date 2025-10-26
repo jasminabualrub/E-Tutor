@@ -63,8 +63,8 @@ transition: all 0.9s;
   
     color:black;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color:var(--main-color);
+.carousel-control-next-icon path, .carousel-control-prev-icon path {
+    fill:var(--main-color);
 }
 .carousel-control-next{
 right: -30px;
@@ -95,5 +95,8 @@ right: -30px;
  .course-filter .card p{
     height: 50px;
  }
-
+.carousel-control-prev-icon, .carousel-control-next-icon
+{
+    background-image: none;
+}
 /*filter section end */

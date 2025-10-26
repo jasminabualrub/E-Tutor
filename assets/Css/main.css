@@ -27,6 +27,13 @@ color: var(--main-color);
 .navbar2 {
   padding: 16px 0px;
 }
+.nav2-end a{
+  color:#4E5566;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  
+}
 .navbar2 .container {
   justify-content: center;
   align-items: center;
