@@ -45,7 +45,7 @@
     background-image: url(../Images/contact/Branches\ \(1\).webp);
     background-repeat: no-repeat;
     background-size: cover;
-    width:312px;
+   
     height: 364px;
 }
 .branches .card2{
@@ -71,7 +71,7 @@
 }
 .branches .card .info{
    
-    width:200px;
+    width:62%;
   
     padding:5px;
     position :absolute;
@@ -92,7 +92,7 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap:60px;
+       
     }
   
 }
@@ -101,7 +101,7 @@
         
         justify-content: center;
         align-items: center;
-        gap:60px;
+        
     }}
   
 /*branches media query end */
