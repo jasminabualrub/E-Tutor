@@ -41,3 +41,6 @@
     flex-direction: column;
     gap:30px;
 }
+.comment-detail{
+    width:80%;
+}
