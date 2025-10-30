@@ -1,0 +1,43 @@
+.breadcrumb a{
+    text-decoration: none;
+    color:#6E7485;
+    transition: all 0.9s;
+}
+.breadcrumb a:hover{
+    color:var( --main-color);
+}
+.second-img{
+  left: 37px;
+  z-index: 1;
+    bottom: 0px;
+    top:1px;
+}
+.nav-link:focus{
+    color: var(--main-color);
+
+}
+
+
+.nav-item p,.nav-item h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.nav .nav-tabs {
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 10px;
+}    
+
+/*instructor start*/
+.instructor .description .row {
+    border:1px solid #E9EAF0;
+    width:80%;
+    padding: 32px;
+}
+.instructor{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
